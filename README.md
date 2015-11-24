@@ -2,6 +2,27 @@
 
 Primer Meetup práctico para la comunidad de Meteor Colombia
 
+Características de Meteor
+
+## Desarrollo
+
++ Full Stack Javascript (Sistema de desarrollo unificado)
++ Multiple plataforma ( web, iOS, Android)
++ Programación Reactiva / Realtime
+
+
+## Cloud Services (Galaxy)
+
++ Monitoreo
++ Deployment multiplataforma
++ Actualización del aplicativo (versionamiento)
+
+##
+
++ Simple de programar
++ Persistencia (información, ui)
++ Sistema de paquetes (atmospherejs)
+
 Grupo del Meetup: http://www.meetup.com/es/Meteor-Colombia/
 Evento: http://www.meetup.com/es/Meteor-Colombia/events/226516843/
 
