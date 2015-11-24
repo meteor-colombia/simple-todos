@@ -1,5 +1,10 @@
 # Simple aplicación - lista de tareas
 
+Primer Meetup práctico para la comunidad de Meteor Colombia
+
+Grupo del Meetup: http://www.meetup.com/es/Meteor-Colombia/
+Evento: http://www.meetup.com/es/Meteor-Colombia/events/226516843/
+
 ## 1) Instalar Meteor.js
 
 
