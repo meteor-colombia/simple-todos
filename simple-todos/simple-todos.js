@@ -21,6 +21,14 @@ if (Meteor.isClient) {
       e.target.text.value = '';
     }
   });
+
+  Template.body.events({
+    "click .toggle-checked": function(){
+      Tasks.update(this._id, {
+        $set: {checked: !this.checked}
+      });
+    }
+  });
 }
 
 if (Meteor.isServer) {
