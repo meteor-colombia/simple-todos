@@ -4,6 +4,11 @@
 
 <body>
   <h1>Todo List</h1>
+  
+  <form class="new-task">
+    <input type="text" name="text" placeholder="Add new task">
+  </form>
+
   <ul>
     {{#each tasks}}
       {{> task}}
