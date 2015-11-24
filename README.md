@@ -45,7 +45,7 @@ Esto instala los módulos o componentes principales para que meteor pueda inicia
 
 Una vez termine meteor este proceso ya podemos ingresar a http://localhost:3000 desde nuestro navegador.
 
-## 4) Ahora a echar un poco de código!!
+## 4) Ahora un poco de código!!
 
 Empecemos con en HTML, el sistema de templates de meteor se llama spacebars, inspirado en handlebars pero propio de meteor.
 
@@ -175,9 +175,9 @@ return Tasks.find({});
 }
 ```
 
-## 10) Ahora Agreguemos poder cambiar el estado de nuestra tarea o poderla eliminar
+## 10) Ahora que desde nuestro index html (simple-todos.html) podamos cambiar el estado de nuestra tarea o poderla eliminar
 
-actualizamos nuestro template en nuestro archivo simple-todos.html
+Actualizamos nuestro template en nuestro archivo simple-todos.html
 
 ```html
 </body>
@@ -193,7 +193,7 @@ actualizamos nuestro template en nuestro archivo simple-todos.html
 </template>
 ```
 
-ahora agregamos el evento de cheched y delete
+Agregamos el evento de cheched y delete en nuestro archivo simple-todos.js
 
 ```javascript
   event.target.text.value = "";
@@ -230,5 +230,3 @@ meteor deploy nombre-de-la-aplicacion.meteor.com
 Esto toma unos minutos, después que termine ya podemos ingresar a la url a la que le hicimos deploy
 
 http://nombre-de-la-aplicacion.meteor.com
-
-
